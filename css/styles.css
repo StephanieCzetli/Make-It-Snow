@@ -1,0 +1,24 @@
+
+
+
+* {
+box-sizing: border-box;
+}
+
+/* original background color #323975;*/
+body {
+    background-color: #070b34;
+}
+
+.fa-snowflake {
+    color: #fff;
+    position: absolute;
+    /* top: -20px; */
+    animation: fall 20s linear forwards;
+}
+
+@keyframes fall {
+    to {
+    transform: translateY(105vh);
+    }
+}
